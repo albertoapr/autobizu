@@ -26,7 +26,15 @@
 	<navigation-rule>
 		<navigation-case>
 			<from-outcome>listaMercadorias</from-outcome>
-			<to-view-id>/listaMercadorias.xhtml</to-view-id>
+			<to-view-id>/mercadoria/listar.xhtml</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<!-- Define a navegacao global para a pagina de sobre. -->
+	<navigation-rule>
+		<navigation-case>
+			<from-outcome>sobre</from-outcome>
+			<to-view-id>sobre.xhtml</to-view-id>
 			<redirect />
 		</navigation-case>
 	</navigation-rule>
