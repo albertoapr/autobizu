@@ -30,6 +30,14 @@
 			<redirect />
 		</navigation-case>
 	</navigation-rule>
+	<!-- Define a navegacao global para a pagina de inclusão de mercadoria. -->
+	<navigation-rule>
+		<navigation-case>
+			<from-outcome>incluirMercadoria</from-outcome>
+			<to-view-id>/mercadoria/incluir.xhtml</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
 	<!-- Define a navegacao global para a pagina de sobre. -->
 	<navigation-rule>
 		<navigation-case>

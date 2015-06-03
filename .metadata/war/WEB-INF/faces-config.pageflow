@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14332851865430" configfile="/autobizu/war/WEB-INF/faces-config.xml">
-  <nodes xsi:type="pageflow:PFPage" name="*" x="122" y="178" id="pf14332917352190" outlinks="pf14332917352191 pf14332917352192" path="*"/>
+  <nodes xsi:type="pageflow:PFPage" name="*" x="122" y="178" id="pf14332917352190" outlinks="pf14332917352191 pf14332917352192 pf14332976517455" path="*"/>
   <nodes xsi:type="pageflow:PFPage" name="mercadoria/listar.xhtml" x="338" y="178" id="pf14332917352193" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" inlinks="pf14332917352191" path="/mercadoria/listar.xhtml"/>
   <nodes xsi:type="pageflow:PFPage" name="sobre.xhtml" id="pf14332917352194" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" inlinks="pf14332917352192" path="sobre.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="mercadoria/incluir.xhtml" id="pf14332976517456" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" inlinks="pf14332976517455" path="/mercadoria/incluir.xhtml"/>
   <links id="pf14332917352191" target="pf14332917352193" source="pf14332917352190" outcome="listaMercadorias" redirect="true"/>
   <links id="pf14332917352192" target="pf14332917352194" source="pf14332917352190" outcome="sobre" redirect="true"/>
+  <links id="pf14332976517455" target="pf14332976517456" source="pf14332917352190" outcome="incluirMercadoria" redirect="true"/>
 </pageflow:Pageflow>
