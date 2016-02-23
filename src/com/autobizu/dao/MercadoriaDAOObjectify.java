@@ -18,12 +18,12 @@ import com.autobizu.model.Mercadoria;
  *   A proposta do Objetify é denifir uma API mais alto-nível para manipular dados no <code>DataStore</code> do App Engine.
  * </p>
  * 
- * @see br.com.yaw.sjpac.dao.MercadoriaDAO
+ * @see IMercadoriaDAO.com.yaw.sjpac.dao.MercadoriaDAO
  * @see com.googlecode.objectify.ObjectifyService.
  * 
  * @author YaW Tecnologia
  */
-public class MercadoriaDAOObjectify implements Serializable, MercadoriaDAO {
+public class MercadoriaDAOObjectify implements Serializable, IMercadoriaDAO {
 
 	@Override
 	public Long save(Mercadoria mercadoria) {

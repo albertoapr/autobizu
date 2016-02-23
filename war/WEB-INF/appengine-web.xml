@@ -10,6 +10,7 @@
   <system-properties>
     <property name="java.util.logging.config.file" value="WEB-INF/classes/log4j.properties"/>
   </system-properties>
+  <use-google-connector-j>true</use-google-connector-j>
 
 
 </appengine-web-app>

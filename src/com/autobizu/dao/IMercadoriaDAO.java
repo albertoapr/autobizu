@@ -11,7 +11,7 @@ import com.autobizu.model.Mercadoria;
  * 
  * @author YaW Tecnologia
  */
-public interface MercadoriaDAO {
+public interface IMercadoriaDAO {
 
 	/**
 	 * Faz a inserção ou atualização da mercadoria na base de dados.

@@ -17,7 +17,7 @@ import javax.faces.model.ListDataModel;
 
 import org.apache.log4j.Logger;
 
-import com.autobizu.dao.MercadoriaDAO;
+import com.autobizu.dao.IMercadoriaDAO;
 import com.autobizu.dao.MercadoriaDAOObjectify;
 import com.autobizu.model.Mercadoria;
 
@@ -39,7 +39,7 @@ public class MercadoriaMB implements Serializable {
 	/**
 	 * Referência do componente de persistência.
 	 */
-	private MercadoriaDAO dao;
+	private IMercadoriaDAO dao;
 	
 	/**
 	 * Referência para a mercadoria utiliza na inclusão (nova) ou edição.
